@@ -12,7 +12,7 @@ def index():
 
 @app.route("/about")
 def about():
-    return render_template("about.html", page_title="About Us")
+    return render_template("about.html", page_title="About Us", n_s=[1, 2, 3])
 
 
 @app.route("/contact")
